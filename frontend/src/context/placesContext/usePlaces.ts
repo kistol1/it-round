@@ -7,7 +7,7 @@ const defaultData: PlacesContextType = {
   isEditing: false,
   handleIsEditing: () => {},
   setPlaces: () => {},
-  activeFilter: null,
+  activeFilters: [],
   sortType: {
     name: "name",
     type: "asc",
